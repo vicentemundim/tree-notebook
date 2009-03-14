@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE glade-interface SYSTEM "glade-2.0.dtd">
+<!--Generated with glade3 3.4.5 on Sat Mar 14 15:57:02 2009 -->
+<glade-interface>
+  <widget class="GtkWindow" id="main_window">
+    <property name="visible">True</property>
+    <property name="title" translatable="yes">Tree Notebook</property>
+    <signal name="delete_event" handler="on_main_window_delete_event"/>
+    <child>
+      <placeholder/>
+    </child>
+  </widget>
+</glade-interface>
