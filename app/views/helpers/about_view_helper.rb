@@ -1,0 +1,2 @@
+class AboutViewHelper < ApplicationViewHelper
+end
