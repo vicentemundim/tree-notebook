@@ -1,4 +1,12 @@
 class MainController < RuGUI::BaseMainController
+  def setup_models
+    register_model :notebook_tree
+  end
+
+  def setup_controllers
+    register_controller :notebook_tree_controller
+  end
+
   def setup_views
     register_view :main_view
     register_view :about_view
